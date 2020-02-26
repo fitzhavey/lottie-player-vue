@@ -3,7 +3,7 @@ A vue wrapper for [@lottiefiles/lottie-player](https://www.npmjs.com/package/@lo
 
 It is published on npm at: https://www.npmjs.com/package/lottie-player-vue
 
-<img src="./animation.gif" alt="animation" width="300px">
+<img src="https://github.com/michaelfitzhavey/lottie-player-vue/raw/master/animation.gif" alt="animation" width="300px">
 
 ## Installation
 
