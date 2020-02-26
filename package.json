@@ -1,6 +1,6 @@
 {
 	"name": "lottie-player-vue",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "LottieFiles animations, in Vue!",
 	"main": "./dist/lottie-player.common.js",
 	"scripts": {
