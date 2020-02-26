@@ -22,6 +22,7 @@ export default {
 	},
 	methods: {
 		async render() {
+			console.log('>rendering');
 			if (this.player) this.player.remove();
 			await this.$nextTick(); // wait for elements to render
 			this.player = document.createElement('lottie-player');
