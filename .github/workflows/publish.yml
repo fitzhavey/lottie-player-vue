@@ -42,7 +42,7 @@ jobs:
     - name: Build project
       run: |
         npm ci
-        npm run build
+        npm run build-bundle
 
     - name: Commit changes (if any)
       run: git commit -m "increment package version" -a || echo "No changes to commit"
