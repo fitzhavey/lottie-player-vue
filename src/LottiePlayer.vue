@@ -23,22 +23,26 @@ export default {
 		};
 	},
 	watch: {
-		src: {
-			immediate: true,
-			async handler() {
-				if (this.player) this.player.remove();
-				await this.$nextTick(); // wait for elements to render
-				this.player = document.createElement('lottie-player');
-				Object.keys(this.options).forEach(key => {
-					if (['width', 'height'].includes(key)) {
-						this.player.style[key] = this.options[key];
-					} else {
-						this.player.setAttribute(key, this.options[key]);
-					}
-				});
-				this.player.src = this.src;
-				this.$refs.LottiePlayer.appendChild(this.player);
-			}
+		src: 'render',
+		options: 'render'
+	},
+	created() {
+		this.render();
+	},
+	methods: {
+		async render() {
+			if (this.player) this.player.remove();
+			await this.$nextTick(); // wait for elements to render
+			this.player = document.createElement('lottie-player');
+			Object.keys(this.options).forEach(key => {
+				if (['width', 'height'].includes(key)) {
+					this.player.style[key] = this.options[key];
+				} else {
+					this.player.setAttribute(key, this.options[key]);
+				}
+			});
+			this.player.src = this.src;
+			this.$refs.LottiePlayer.appendChild(this.player);
 		}
 	}
 };
