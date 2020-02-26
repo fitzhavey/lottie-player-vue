@@ -14,7 +14,19 @@
 		"*.json",
 		"*.js"
 	],
-	"author": "",
+	"repository": "michaelfitzhavey/lottie-player-vue",
+	"homepage": "https://github.com/michaelfitzhavey/lottie-player-vue",
+	"bugs": {
+		"url": "https://github.com/michaelfitzhavey/lottie-player-vue/issues",
+		"email": "michael.fitzhavey@gmail.com"
+	},
+	"author": "Michael Fitzhavey <michael.fitzhavey@gmail.com>",
+	"keywords": [
+		"animation",
+		"lottiefiles",
+		"svg",
+		"vue"
+	],
 	"license": "ISC",
 	"devDependencies": {
 		"@babel/core": "^7.8.4",
