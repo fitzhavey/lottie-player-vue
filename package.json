@@ -1,0 +1,38 @@
+{
+	"name": "lottie-player-vue",
+	"version": "0.0.1",
+	"description": "LottieFiles animations, in Vue!",
+	"main": "./dist/lottie-player.common.js",
+	"scripts": {
+		"build-bundle": "vue-cli-service build --target lib --name lottie-player ./src/index.js",
+		"lint": "vue-cli-service lint"
+	},
+	"files": [
+		"dist/*",
+		"src/*",
+		"public/*",
+		"*.json",
+		"*.js"
+	],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.8.4",
+		"@holistic-web/eslint-config": "^0.1.2",
+		"@vue/cli-plugin-babel": "^4.1.0",
+		"@vue/cli-plugin-eslint": "^4.1.0",
+		"@vue/cli-service": "^4.1.0",
+		"babel-eslint": "^10.0.3",
+		"babel-loader": "^8.0.6",
+		"babel-preset-vue": "^2.0.2",
+		"eslint": "^5.16.0",
+		"eslint-plugin-vue": "^5.0.0"
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions"
+	],
+	"dependencies": {
+		"@lottiefiles/lottie-player": "^0.3.0-rc2"
+	}
+}
