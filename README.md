@@ -49,7 +49,7 @@ Customisation of the tree is configured with the following properties:
 | src     | **required** | JSON animation, from http://lottiefiles.com |
 | options | `{}`         | _documented below_                          |
 
-The options object matches the properties of the [offical lottiefiles documentation](https://www.npmjs.com/package/@lottiefiles/lottie-player#properties) exactly except for that we also support a `width` and `height` property. These will be mapped directly to the `width` and `height` of the animation.
+The options object matches the properties found in the [offical lottiefiles documentation](https://www.npmjs.com/package/@lottiefiles/lottie-player#properties) exactly with the addition that we also support the `width` and `height` keys. These will be mapped directly to the `width` and `height` properties of the animation HTML element.
 
 e.g.
 ```js
