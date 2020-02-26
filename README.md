@@ -3,13 +3,13 @@ A vue wrapper for [@lottiefiles/lottie-player](https://www.npmjs.com/package/@lo
 
 It is published on npm at: https://www.npmjs.com/package/lottie-player-vue
 
-![animation](./animation.gif)
+![animation](./animation.gif | width=300)
 
 ## Installation
 
-Install [vue-json-tree-vue](https://www.npmjs.com/package/vue-json-tree-view):
+Install [lottie-player-vue](https://www.npmjs.com/package/lottie-player-vue):
 ```bash
-npm install --save vue-json-tree-view
+npm install --save lottie-player-vue
 ```
 
 Include in it either globally (in `main.js`) or a Vue component.
@@ -17,7 +17,7 @@ _Global_:
 ```js
 // main.js
 // ...
-import TreeView from 'vue-json-tree-view';
+import TreeView from 'lottie-player-vue';
 
 Vue.use(TreeView);
 // ...
@@ -26,7 +26,7 @@ _Component_:
 ```js
 // MyComponent.vue
 // ...
-import TreeView from 'vue-json-tree-view';
+import TreeView from 'lottie-player-vue';
 
 export default {
 	components: {
