@@ -16,8 +16,7 @@ export default {
 	},
 	data() {
 		return {
-			player: null,
-			animation: null
+			player: null
 		};
 	},
 	methods: {
@@ -33,7 +32,7 @@ export default {
 					this.player.setAttribute(key, this.options[key]);
 				}
 			});
-			this.player.src = this.animation;
+			this.player.src = this.src;
 			this.$refs.LottiePlayer.appendChild(this.player);
 		}
 	},

@@ -37,9 +37,9 @@ export default {
 
 And then add it to your template:
 ```html
-	<div>
-		<lottie-player :data="jsonSource"/>
-	</div>
+<div>
+	<lottie-player :src="animationJSON"/>
+</div>
 ```
 
 ## Properties
