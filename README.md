@@ -44,10 +44,10 @@ And then add it to your template:
 
 ## Properties
 Customisation of the tree is configured with the following properties:
-| Name    | Default      | Description                                 |
-|---------|--------------|---------------------------------------------|
-| src     | **required** | JSON animation, from http://lottiefiles.com |
-| options | `{}`         | _documented below_                          |
+| Name    | Default      | Description                                                                              |
+|---------|--------------|------------------------------------------------------------------------------------------|
+| src     | **required** | JSON animation, from http://lottiefiles.com                                              |
+| options | `{}`         | _documented below_ / https://www.npmjs.com/package/@lottiefiles/lottie-player#properties |
 
 The options object matches the properties found in the [offical lottiefiles documentation](https://www.npmjs.com/package/@lottiefiles/lottie-player#properties) exactly with the addition that we also support the `width` and `height` keys. These will be mapped directly to the `width` and `height` properties of the animation HTML element.
 

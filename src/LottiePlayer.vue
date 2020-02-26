@@ -34,6 +34,7 @@ export default {
 			});
 			this.player.src = this.src;
 			this.$refs.LottiePlayer.appendChild(this.player);
+			console.log('this.player: ', this.player);
 		}
 	},
 	watch: {
