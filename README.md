@@ -30,7 +30,7 @@ import LottiePlayer from 'lottie-player-vue';
 
 export default {
 	components: {
-		LottiePlayerItem
+		LottiePlayer
 	},
 // ...
 ```
