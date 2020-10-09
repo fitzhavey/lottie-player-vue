@@ -1,5 +1,5 @@
 <template>
-	<span ref="LottiePlayer" />
+	<span ref="LottiePlayer"></span>
 </template>
 
 <script>
@@ -44,6 +44,7 @@ export default {
 				});
 			}
 			this.player.src = this.src;
+			this.$refs.LottiePlayer.innerHTML = '';
 			this.$refs.LottiePlayer.appendChild(this.player);
 		}
 	}
